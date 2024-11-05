@@ -33,14 +33,6 @@ public class TheAddressPage extends BasePage {
     @FindBy(xpath = ".//button[contains(text(),'Далее')]")
     private WebElement nextButton;
 
-    //private By name = xpath(".//input[@placeholder='* Имя']");  //Страница с адресом
-    //private By surname = xpath(".//input[@placeholder='* Фамилия']");
-    //private By address = xpath(".//input[@placeholder='* Адрес: куда привезти заказ']");
-    //private By metro = xpath(".//input[@placeholder='* Станция метро']");
-    //private By metroStationList =xpath(".//li[@data-index=100]");
-    //private By telephoneNumber = xpath(".//input[@placeholder='* Телефон: на него позвонит курьер']");
-    //private By nextButton = xpath(".//button[contains(text(),'Далее')]");
-
     public void inputName(String firstName) {
         name.sendKeys(firstName);
     }
